@@ -35,7 +35,7 @@ class PebbleSdk < Formula
   depends_on :python if MacOS.version <= :snow_leopard
 
   resource 'pypkjs' do
-    url 'https://s3-us-west-2.amazonaws.com/pebble-sdk-homebrew/pypkjs-1.1.0.tar.gz'
+    url 'https://github.com/ltpitt/vagrant-pebble-sdk/raw/master/pypkjs-1.0.6.tar.gz'
     sha256 '39dbc17e00993093bc1b3ff29d3079af380790824ff1cc60c69f2e8ae0dc89ac'
   end
 
