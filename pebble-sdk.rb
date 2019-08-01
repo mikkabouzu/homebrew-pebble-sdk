@@ -29,8 +29,8 @@ class PebbleSdk < Formula
   depends_on 'freetype' => :recommended
   depends_on 'boost-python'
 
-  depends_on 'pebble-toolchain'
-  depends_on 'pebble-qemu'
+  depends_on 'mikkabouzu/pebble-sdk/pebble-toolchain'
+  depends_on 'mikkabouzu/pebble-sdk/pebble-qemu'
 
   depends_on :python if MacOS.version <= :snow_leopard
 
