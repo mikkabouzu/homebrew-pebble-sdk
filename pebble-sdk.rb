@@ -219,7 +219,7 @@ class PebbleSdk < Formula
     end
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
       
       Documentation can be found online at https://developer.pebble.com/docs
 
