@@ -36,7 +36,7 @@ class PebbleSdk < Formula
 
   resource 'pypkjs' do
     url 'https://github.com/ltpitt/vagrant-pebble-sdk/raw/master/pypkjs-1.0.6.tar.gz'
-    sha256 '39dbc17e00993093bc1b3ff29d3079af380790824ff1cc60c69f2e8ae0dc89ac'
+    sha256 '43a05fb007a65cf81f68505e94679fc21d3d31e79e17df9a1bc086ad7da9b0f3'
   end
 
   resource 'libpebble2' do
