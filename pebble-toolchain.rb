@@ -2,7 +2,7 @@ require 'formula'
 
 class PebbleToolchain < Formula
   homepage 'https://github.com/pebble/arm-eabi-toolchain'
-  url 'http://assets.getpebble.com.s3-website-us-east-1.amazonaws.com/sdk/arm-cs-tools-macos-universal-static.tar.gz'
+  url 'https://github.com/pebble/arm-eabi-toolchain/archive/v2.0.tar.gz'
   sha256 '49a1ddaed13d44b928a7148fa344f9362d6ae6823496fb5077ea451230222c4b'
   version '2.0'
 
