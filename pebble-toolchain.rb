@@ -3,7 +3,7 @@ require 'formula'
 class PebbleToolchain < Formula
   homepage 'https://github.com/pebble/arm-eabi-toolchain'
   url 'https://github.com/pebble/arm-eabi-toolchain/archive/v2.0.tar.gz'
-  sha256 '49a1ddaed13d44b928a7148fa344f9362d6ae6823496fb5077ea451230222c4b'
+  sha256 '790aa67505842eb6e6880c6b2dd2ac7a0d3059d25b20fd0e65c3ccd84b8ddf35'
   version '2.0'
 
   keg_only 'Not linked to avoid conflicts.'
